@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    
+    <script> // 해당 태그나 dom의 내용 조작
+        var div = document.querySelector('#app')
+        var str = 'hello world'
+        console.log(div); // 위쪽 div 태그 정보 가져옴
+        div.innerHTML = str; //div 태그안에 헬로월드 넣어줌
+    
+        str = 'sfadfas';
+        div.innerHTML = str;
+    
+    </script>
+</body>
+</html>
